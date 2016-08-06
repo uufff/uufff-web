@@ -1,0 +1,21 @@
+{
+  "name": "uufff/uufff-web",
+  "description": "uufff",
+  "keywords": [ "uufff", "uufff-web" ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "uufff",
+      "email": "master@uufff.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Uufff\\Web\\": "src/"
+    }
+  },
+  "minimum-stability": "dev"
+}
